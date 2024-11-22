@@ -1,0 +1,29 @@
+footer {
+ text-align: center;
+ padding: var(--padding-yv-s);
+ background-color: var(--senary-color-yv);
+ margin-top: var(--margin-top-yv-s);
+}
+
+.footer p {
+ color: var(--primary-color-yv);
+ margin: 30px auto 10px;
+}
+
+.skills-icons {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 15px;
+}
+
+.skills-icons img {
+ width: 40px;
+ height: 40px;
+ transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.skills-icons img:hover {
+ transform: scale(1.2);
+ opacity: 0.8;
+}

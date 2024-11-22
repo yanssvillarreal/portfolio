@@ -1,0 +1,11 @@
+.experience {
+ color: var(--secondary-color-yv);
+ background-color: var(--primary-background-yv);
+ padding: var(--padding-yv-s);
+ border-radius: var(--border-radius-yv);
+ margin-bottom: 1rem;
+}
+
+p {
+ margin-left: 0.5rem;
+}

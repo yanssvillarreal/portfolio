@@ -1,0 +1,20 @@
+.education {
+ background-color: var(--primary-background-yv);
+ padding: var(--padding-yv-s);
+ border-radius: var(--border-radius-yv);
+ margin-bottom: 1rem;
+ color: var(--secondary-color-yv);
+}
+
+.education-item {
+ margin-bottom: 1rem;
+}
+
+.education-item h4 {
+ font-size: var(--font-size-yv-S);
+ color: var(--quaternary-coloryv);
+}
+
+.education-item ul {
+ margin-left: 0.5rem;
+}

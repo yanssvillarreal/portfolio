@@ -1,0 +1,74 @@
+:root {
+ /* FONT COLORS */
+ --primary-color-yv: #ffffff;
+ --secondary-color-yv: #ff2949;
+ --tertiary-color-yv: #ff4d5e;
+ --quaternary-coloryv: #ff8e3d;
+ --quinary-color-yv: #3b4dd8;
+ --senary-color-yv: #1c1c1c;
+ --septenary-color-yv: #704dff;
+
+ /* BACKGROUND COLOR */
+ --primary-background-yv: #fff3e0;
+
+ /* FONT size */
+ --font-size-yv-S: 1.1rem;
+ --font-size-yv-M: 2.5rem;
+ --font-size-yv-L: 18px;
+ --font-size-yv-XL: 20px;
+ --font-size-yv-XXL: 25px;
+ --font-size-yv-XXXL: 9rem;
+
+ /* BACKGROUND COLORS */
+ --primary-background-color-yv: #3b4dd8;
+ --secondary-background-color-yv: #704dff;
+
+ /* RADIUS */
+ --border-radius-yv: 8px;
+
+ /* SPACINGS */
+ --margin-top-yv-xxs: 1.1rem;
+ --margin-top-yv-xs: 2.5rem;
+ --margin-top-yv-s: 3rem;
+ --margin-top-yv-m: 5rem;
+ --margin-top-yv-l: 10rem;
+
+ --padding-yv-xs: 1rem;
+ --padding-yv-s: 1.5rem;
+ --padding-yv-m: 5rem;
+ --padding-yv-l: 10rem;
+
+ --gap-yv-s: 3rem;
+ --gap-yv-m: 5rem;
+ --gap-yv-l: 10rem;
+}
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-decoration: none;
+ list-style: none;
+}
+
+body {
+ background: linear-gradient(
+  90deg,
+  rgba(255, 131, 62, 1) 0%,
+  rgba(255, 62, 82, 1) 50%,
+  rgba(244, 16, 99, 1) 100%
+ );
+}
+
+h1,
+h2 {
+ color: var(--quaternary-coloryv);
+ margin-bottom: 1rem;
+}
+
+p {
+ margin-bottom: 1rem;
+ font-size: var(--font-size-yv-S);
+ color: var(--secondary-color-yv);
+}

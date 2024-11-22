@@ -1,0 +1,52 @@
+header {
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+}
+
+h1 {
+ margin-top: var(--margin-top-yv-s);
+ color: var(--primary-color-yv);
+ text-align: center;
+ font-size: var(--font-size-yv-M);
+ text-shadow: 2px 2px 2px var(--senary-color-yv);
+}
+
+header nav ul {
+ display: flex;
+ justify-content: space-around;
+ margin: 20px 0 0;
+ background-color: var(--senary-color-yv);
+ padding: 10px;
+}
+
+ul li a {
+ color: var(--primary-color-yv);
+ font-size: var(--font-size-yv-XXL);
+ transition: color 0.5s ease;
+}
+
+nav a:hover {
+ color: var(--quaternary-coloryv);
+}
+
+@keyframes slideHorizontalReverse {
+ /* inicio, posicionamiento, salida */
+ 0% {
+  transform: translateX(100%);
+ }
+ 50% {
+  transform: translateX(0);
+ }
+ 100% {
+  transform: translateX(-100%);
+ }
+}
+
+header h2 {
+ font-size: var(--font-size-yv-M);
+ white-space: nowrap;
+ overflow: hidden;
+ animation: slideHorizontalReverse 30s linear infinite;
+ color: var(--quaternary-coloryv);
+}
