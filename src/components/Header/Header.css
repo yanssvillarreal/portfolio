@@ -8,7 +8,7 @@ h1 {
  margin-top: var(--margin-top-yv-s);
  color: var(--primary-color-yv);
  text-align: center;
- font-size: var(--font-size-yv-M);
+ font-size: var(--font-size-yv-XXL);
  text-shadow: 2px 2px 2px var(--senary-color-yv);
 }
 
@@ -22,7 +22,7 @@ header nav ul {
 
 ul li a {
  color: var(--primary-color-yv);
- font-size: var(--font-size-yv-XXL);
+ font-size: var(--font-size-yv-S);
  transition: color 0.5s ease;
 }
 
@@ -44,9 +44,9 @@ nav a:hover {
 }
 
 header h2 {
- font-size: var(--font-size-yv-M);
+ font-size: var(--font-size-yv-L);
  white-space: nowrap;
  overflow: hidden;
- animation: slideHorizontalReverse 30s linear infinite;
+ animation: slideHorizontalReverse 35s linear infinite;
  color: var(--quaternary-coloryv);
 }

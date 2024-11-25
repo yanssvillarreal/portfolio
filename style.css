@@ -13,11 +13,12 @@
 
  /* FONT size */
  --font-size-yv-S: 1.1rem;
- --font-size-yv-M: 2.5rem;
- --font-size-yv-L: 18px;
- --font-size-yv-XL: 20px;
- --font-size-yv-XXL: 25px;
- --font-size-yv-XXXL: 9rem;
+ --font-size-yv-M: 1.5rem;
+ --font-size-yv-L: 1.8rem;
+ --font-size-yv-XL: 2rem;
+ --font-size-yv-XXL: 2.5rem;
+ --font-size-yv-XXXL: 7rem;
+ --font-size-yv-huge: 11rem;
 
  /* BACKGROUND COLORS */
  --primary-background-color-yv: #3b4dd8;
@@ -63,12 +64,38 @@ body {
 
 h1,
 h2 {
+ font-family: 'Satisfy', cursive;
  color: var(--quaternary-coloryv);
  margin-bottom: 1rem;
+ font-size: var(--font-size-yv-XXL);
 }
 
 p {
  margin-bottom: 1rem;
  font-size: var(--font-size-yv-S);
  color: var(--secondary-color-yv);
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+ body {
+  padding: 10px;
+ }
+
+ .projects-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+ }
+}
+
+@media (min-width: 769px) and (max-width: 1250px) {
+ body {
+  padding: 10px;
+ }
+
+ .projects-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+ }
 }

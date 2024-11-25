@@ -13,7 +13,7 @@
  cursor: pointer;
  transition: transform 0.6s ease;
  position: relative;
- top: -20px;
+ top: -60px;
 }
 
 .avatar:hover {
@@ -26,7 +26,7 @@
 
 .about h2 {
  color: var(--primary-color-yv);
- font-size: var(--font-size-yv-XXXL);
+ font-size: var(--font-size-yv-huge);
  text-shadow: 7px 7px 7px var(--senary-color-yv);
 }
 
@@ -34,4 +34,30 @@
  background-color: var(--primary-background-yv);
  padding: var(--padding-yv-s);
  border-radius: var(--border-radius-yv);
+}
+
+.redirect-projects {
+ color: orange;
+ cursor: pointer;
+ transition: color 0.3s ease;
+}
+
+.redirect-projects:hover {
+ color: var(--senary-color-yv);
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+ .about h2 {
+  font-size: var(--font-size-yv-XXXL);
+ }
+
+ .avatar {
+  top: -25px;
+ }
+}
+
+@media (min-width: 769px) and (max-width: 1250px) {
+ .about h2 {
+  font-size: var(--font-size-yv-XXXL);
+ }
 }
